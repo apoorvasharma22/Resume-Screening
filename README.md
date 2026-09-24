@@ -25,3 +25,5 @@ app/
 tests/               84 tests: skills, parser, extractor, JD parser, matcher, full API workflow
 sample_data/ · db/schema.sql · docs/ · scripts/ · Dockerfile · docker-compose.yml
 ```
+## Live Deployment Link
+https://resume-screening-ka3v.onrender.com
