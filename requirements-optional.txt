@@ -1,0 +1,2 @@
+# True neural sentence embeddings (BEHAVIOUR: set EMBEDDING_BACKEND=transformer)
+sentence-transformers>=2.7

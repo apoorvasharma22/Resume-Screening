@@ -1,0 +1,23 @@
+Title: Senior Frontend Engineer
+Company: Lumen Commerce
+Location: Remote
+
+About the role
+We are rebuilding our storefront experience and need a senior frontend engineer who cares about performance, accessibility and craft.
+
+Responsibilities
+- Build and maintain React and TypeScript applications
+- Consume REST APIs and GraphQL services
+- Write reliable automated tests and improve developer tooling
+
+Requirements
+- 4+ years of experience building production web applications
+- Bachelor's degree or equivalent experience
+- Expert React, TypeScript and JavaScript
+- Strong HTML and CSS
+- Experience with REST APIs, Git and Jest
+
+Nice to have
+- Next.js and GraphQL
+- Tailwind CSS and Storybook
+- Accessibility and CI/CD experience

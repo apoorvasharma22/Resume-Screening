@@ -1,0 +1,24 @@
+Title: Senior Backend Engineer
+Company: Northwind Labs
+Location: Remote (India / EU)
+
+About the role
+We are building the payments platform behind thousands of online stores and need a senior backend engineer to design and scale our core services. You will own services end to end, from database design to production operations, and mentor other engineers.
+
+Responsibilities
+- Design and build scalable REST APIs and microservices in Python using FastAPI or Django
+- Model data in PostgreSQL and optimise performance
+- Containerise and deploy services with Docker on AWS
+- Maintain CI/CD pipelines and improve reliability
+
+Requirements
+- 5+ years of professional software engineering experience
+- Bachelor's degree in Computer Science or equivalent
+- Strong Python and experience with REST APIs and microservices
+- Solid PostgreSQL and SQL skills
+- Hands-on experience with Docker, AWS and CI/CD
+
+Nice to have
+- Kubernetes and Terraform
+- Redis and Kafka experience
+- Leadership or mentoring experience

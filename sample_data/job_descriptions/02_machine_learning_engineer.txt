@@ -1,0 +1,23 @@
+Title: Machine Learning Engineer
+Company: Helix Intelligence
+Location: Hyderabad, India (hybrid)
+
+About the role
+Join our applied AI team building language products used by enterprise customers. You will take models from research to reliable production services.
+
+Responsibilities
+- Build and deploy NLP and LLM-powered features
+- Train, evaluate and monitor machine learning models
+- Work with data engineers to build feature pipelines
+
+Requirements
+- 3+ years of experience in machine learning or data science
+- Master's degree in Computer Science, Statistics or a related field
+- Strong Python, scikit-learn and PyTorch or TensorFlow
+- Experience with NLP and SQL
+- Docker for packaging and deploying models
+
+Preferred
+- MLOps and MLflow experience
+- Experience with LLMs, RAG and LangChain
+- AWS and Spark experience

@@ -1,0 +1,43 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: shortlist
+      POSTGRES_PASSWORD: shortlist
+      POSTGRES_DB: shortlist
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shortlist -d shortlist"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg2://shortlist:shortlist@db:5432/shortlist
+      SEED_DEMO_DATA: "true"
+      LOG_LEVEL: INFO
+      SMTP_HOST: ""
+      SMTP_PORT: "587"
+      SMTP_USER: ""
+      SMTP_PASSWORD: ""
+      SMTP_FROM: "recruiting@example.com"
+      ANTHROPIC_API_KEY: ""
+      EMBEDDING_BACKEND: hashing
+    ports:
+      - "8000:8000"
+    volumes:
+      - uploads:/srv/data/uploads
+      - logs:/srv/logs
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  uploads:
+  logs:

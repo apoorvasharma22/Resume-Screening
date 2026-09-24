@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: shortlist
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:////opt/render/project/src/data/shortlist.db
+      - key: SEED_DEMO_DATA
+        value: true
+      - key: LOG_LEVEL
+        value: INFO
+      - key: MAX_UPLOAD_MB
+        value: 10
+      - key: OCR_ENABLED
+        value: true
+      - key: EMBEDDING_BACKEND
+        value: hashing
