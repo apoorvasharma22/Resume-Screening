@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shortlist — AI-Powered Resume Screening & Candidate Ranking
 
 Paste a job description, drop in a stack of resumes, and get every candidate **ranked by a 0–100 match score** with a
@@ -202,3 +203,6 @@ into a clean virtualenv, `db/schema.sql` on a fresh PostgreSQL database, OCR wit
 **Not exercised** in the environment this was built in: building the Docker image (no Docker daemon was available),
 sending real SMTP mail, the optional `transformer` embedding backend, and the optional LLM interview-question call
 (both fall back safely to the built-in behaviour on any failure).
+=======
+# Resume-Screening
+>>>>>>> e4523cb06e422b67781f2147a4d438356086253e
